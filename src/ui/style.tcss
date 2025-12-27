@@ -1,0 +1,83 @@
+PasswordGeneratorModal {
+    align: center middle;
+}
+
+EntryScreen{
+    align: center middle;
+}
+
+#entry_screen{
+        width: 70;
+    height: auto;
+    border: thick $background 80%;
+    background: $surface;
+    padding: 1 2;
+}
+
+#entry_screen > Label{
+    padding: 1;
+}
+
+#password-label {
+    color: $accent;
+}
+
+#modal_content {
+    width: 70;
+    height: auto;
+    border: thick $background 80%;
+    background: $surface;
+    padding: 1 2;
+}
+
+#modal_content > Label {
+    width: 100%;
+    content-align: center middle;
+    text-style: bold;
+    margin-bottom: 2;
+}
+
+#length_container {
+    height: 3;
+    align: center middle;
+    margin-bottom: 1;
+}
+
+#length_input {
+    width: 12;
+    margin-left: 1;
+}
+
+Checkbox {
+    margin-bottom: 1;
+}
+
+#password_display {
+    margin: 2 0;
+    border: tall $accent;
+    text-align: center;
+}
+
+#buttons {
+    width: 100%;
+    height: auto;
+    align: center middle;
+    margin-top: 1;
+}
+
+#buttons Button {
+    margin: 0 1;
+    min-width: 12;
+}
+
+#generate {
+    background: $primary;
+}
+
+#create {
+    background: $success;
+}
+
+#cancel {
+    background: $error;
+}
