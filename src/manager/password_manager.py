@@ -9,8 +9,8 @@ from datetime import datetime
 import uuid
 import pyperclip
 
-
 import src.common.encryption as encryption
+from src.common.config import APP_DATA_DIR
 from src.common.exceptions import InvalidEntryException
 from src.logging.logging import AuditLog, Level
 
@@ -31,11 +31,11 @@ class LoginEntry:
 
 class PasswordManager:
     """Class for managing user password entries, with CRUD operations and search functionality"""
-    def __init__(self, username: str, master_password: bytes, log: AuditLog):
+    def __init__(self, username: str, master_password: bytes, log: AuditLog, storage_path: Path | str = None):
         self.__logger = log
         self.__username = username
         self.__master_password = master_password
-        self.__path = self.__init_dirs()
+        self.__path = self.__init_dirs(storage_path)
         self.__user_passwords = self.__load_passwords()
 
     def create_entry(
@@ -160,12 +160,15 @@ class PasswordManager:
         """Copies the given password to the clipboard"""
         pyperclip.copy(password)
 
-    def __init_dirs(self) -> Path:
+    def __init_dirs(self, storage_path: Path | str | None) -> Path:
         self.__logger.log_with_user('Initializing password manager', self.__username)
 
-        # TODO: file exceptions
-        base_dir = Path('user_passwords')
-        base_dir.mkdir(exist_ok=True)
+        if storage_path is not None:
+            base_dir = Path(storage_path) / "user_passwords"
+        else:
+            base_dir = APP_DATA_DIR / "user_passwords"
+
+        base_dir.mkdir(parents=True, exist_ok=True)
 
         return base_dir
 

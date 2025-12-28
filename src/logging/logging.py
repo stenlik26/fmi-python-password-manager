@@ -13,8 +13,8 @@ class Level(Enum):
 
 class AuditLog:
     """Class for audit logging."""
-    def __init__(self, path: str) -> None:
-        self.__logfile = Path(path)
+    def __init__(self, path: Path) -> None:
+        self.__logfile = path
         if not self.__logfile.exists():
             self.__logfile.write_text('', encoding='utf-8')
 
