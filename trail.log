@@ -1,0 +1,83 @@
+2025-12-27T00:00:20.323890 - INFO - Loading user file
+2025-12-27T00:00:22.677473 - INFO - (User: test) - User logged in
+2025-12-27T00:01:45.520833 - INFO - Loading user file
+2025-12-27T00:01:48.296737 - INFO - (User: test) - User logged in
+2025-12-27T00:01:48.345243 - INFO - (User: test) - Initializing password manager
+2025-12-27T00:01:48.345243 - INFO - (User: test) - Loaded passwords
+2025-12-27T00:01:48.355086 - INFO - (User: test) - Listing passwords
+2025-12-27T00:01:49.664948 - INFO - (User: test) - Request to fetch all groups
+2025-12-27T00:01:55.253301 - INFO - (User: test) - Saved passwords
+2025-12-27T00:01:55.254328 - INFO - (User: test) - A new password has been saved
+2025-12-27T00:01:55.254328 - INFO - (User: test) - Listing passwords
+2025-12-27T00:01:55.854472 - INFO - (User: test) - Request to fetch all groups
+2025-12-27T00:02:03.947939 - INFO - (User: test) - Saved passwords
+2025-12-27T00:02:03.947939 - INFO - (User: test) - A new password has been saved
+2025-12-27T00:02:03.948940 - INFO - (User: test) - Listing passwords
+2025-12-27T00:02:04.561981 - INFO - (User: test) - Request to fetch all groups
+2025-12-27T00:02:11.419575 - INFO - (User: test) - Saved passwords
+2025-12-27T00:02:11.419575 - INFO - (User: test) - A new password has been saved
+2025-12-27T00:02:11.419575 - INFO - (User: test) - Listing passwords
+2025-12-27T00:02:12.451858 - INFO - (User: test) - Request to fetch all groups
+2025-12-27T00:02:15.979602 - INFO - (User: test) - Saved passwords
+2025-12-27T00:02:15.979602 - INFO - (User: test) - A new password has been saved
+2025-12-27T00:02:15.980603 - INFO - (User: test) - Listing passwords
+2025-12-27T00:02:19.628329 - INFO - (User: test) - A new group has been registered: group1
+2025-12-27T00:02:19.629335 - INFO - User file has been saved
+2025-12-27T00:02:23.252548 - INFO - (User: test) - A new group has been registered: super cool group
+2025-12-27T00:02:23.253054 - INFO - User file has been saved
+2025-12-27T00:02:25.930831 - INFO - (User: test) - Fetched password entry 08873fac-68ae-4ec6-9142-16f0681c56da
+2025-12-27T00:02:25.930831 - INFO - (User: test) - Request to fetch all groups
+2025-12-27T00:02:28.845315 - INFO - (User: test) - Saved passwords
+2025-12-27T00:02:28.846316 - INFO - (User: test) - Edited password entry 08873fac-68ae-4ec6-9142-16f0681c56da
+2025-12-27T00:02:28.846316 - INFO - (User: test) - Listing passwords
+2025-12-27T00:02:31.242500 - INFO - (User: test) - Fetched password entry 25f562ab-33af-4915-afca-1704d77573d9
+2025-12-27T00:02:31.242500 - INFO - (User: test) - Request to fetch all groups
+2025-12-27T00:02:33.887063 - INFO - (User: test) - Saved passwords
+2025-12-27T00:02:33.887063 - INFO - (User: test) - Edited password entry 25f562ab-33af-4915-afca-1704d77573d9
+2025-12-27T00:02:33.887063 - INFO - (User: test) - Listing passwords
+2025-12-27T00:02:34.931371 - INFO - (User: test) - Fetched password entry de9a7743-7bf2-46ea-8041-0920ff7ebf2d
+2025-12-27T00:02:34.931371 - INFO - (User: test) - Request to fetch all groups
+2025-12-27T00:02:38.126078 - INFO - (User: test) - Saved passwords
+2025-12-27T00:02:38.126078 - INFO - (User: test) - Edited password entry de9a7743-7bf2-46ea-8041-0920ff7ebf2d
+2025-12-27T00:02:38.127089 - INFO - (User: test) - Listing passwords
+2025-12-27T00:02:39.363380 - INFO - (User: test) - Request to fetch all groups
+2025-12-27T00:02:41.479357 - INFO - (User: test) - Listing passwords
+2025-12-27T00:02:42.011726 - INFO - (User: test) - Request to fetch all groups
+2025-12-27T00:02:44.764977 - INFO - (User: test) - Listing passwords
+2025-12-27T00:02:45.084105 - INFO - (User: test) - Request to fetch all groups
+2025-12-27T00:02:47.998826 - INFO - (User: test) - Listing passwords
+2025-12-27T00:02:48.771168 - INFO - (User: test) - Fetched password entry de9a7743-7bf2-46ea-8041-0920ff7ebf2d
+2025-12-27T00:02:51.293006 - INFO - (User: test) - Request to fetch all groups
+2025-12-27T00:02:55.399648 - INFO - (User: test) - Listing passwords
+2025-12-27T00:02:56.431519 - INFO - (User: test) - Request to fetch all groups
+2025-12-27T00:03:00.702363 - INFO - (User: test) - Listing passwords
+2025-12-27T00:03:01.411481 - INFO - (User: test) - Request to fetch all groups
+2025-12-27T00:03:04.263497 - INFO - (User: test) - Listing passwords
+2025-12-27T00:03:06.701201 - INFO - (User: test) - Request to fetch all groups
+2025-12-27T00:03:09.223382 - INFO - (User: test) - Listing passwords
+2025-12-27T00:03:14.731259 - INFO - (User: test) - Fetched password entry 203ddf4c-bbb0-446d-a1e3-8afc3eac703c
+2025-12-27T00:03:15.378318 - INFO - (User: test) - Saved passwords
+2025-12-27T00:03:15.380346 - INFO - (User: test) - Deleted password entry 203ddf4c-bbb0-446d-a1e3-8afc3eac703c
+2025-12-27T00:03:15.381254 - INFO - (User: test) - Listing passwords
+2025-12-27T00:03:16.613984 - INFO - (User: test) - Fetched password entry 08873fac-68ae-4ec6-9142-16f0681c56da
+2025-12-27T00:03:17.189064 - INFO - (User: test) - Saved passwords
+2025-12-27T00:03:17.190054 - INFO - (User: test) - Deleted password entry 08873fac-68ae-4ec6-9142-16f0681c56da
+2025-12-27T00:03:17.190054 - INFO - (User: test) - Listing passwords
+2025-12-27T22:46:29.011852 - INFO - Loading user file
+2025-12-27T22:46:32.068966 - INFO - A user tried to login with an invalid password.
+2025-12-27T22:46:35.285606 - INFO - (User: stenlik) - User logged in
+2025-12-27T22:46:35.340188 - INFO - (User: stenlik) - Initializing password manager
+2025-12-27T22:46:35.341391 - INFO - (User: stenlik) - Loaded passwords
+2025-12-27T22:46:35.350422 - INFO - (User: stenlik) - Listing passwords
+2025-12-27T22:46:36.780945 - INFO - (User: stenlik) - Fetched password entry d27ae474-c25b-4ff2-a575-30d0ee15e6cd
+2025-12-27T22:46:38.475281 - INFO - (User: stenlik) - Fetched password entry 841541c9-f1df-4b62-aadb-286084e9a794
+2025-12-27T22:46:41.052597 - INFO - (User: stenlik) - Request to fetch all groups
+2025-12-27T22:46:44.070816 - INFO - (User: stenlik) - Listing passwords
+2025-12-27T22:46:44.571240 - INFO - (User: stenlik) - Request to fetch all groups
+2025-12-27T22:46:47.573832 - INFO - (User: stenlik) - Listing passwords
+2025-12-27T22:46:51.245508 - INFO - A user tried to login with an invalid username.
+2025-12-27T22:49:53.880147 - INFO - Loading user file
+2025-12-27T22:49:56.553131 - INFO - (User: stenlik) - User logged in
+2025-12-27T22:49:56.601785 - INFO - (User: stenlik) - Initializing password manager
+2025-12-27T22:49:56.602791 - INFO - (User: stenlik) - Loaded passwords
+2025-12-27T22:49:56.612808 - INFO - (User: stenlik) - Listing passwords
