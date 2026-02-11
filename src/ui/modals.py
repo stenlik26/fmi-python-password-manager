@@ -64,7 +64,7 @@ class EditModal(ModalScreen[LoginEntry | None]):
             self.__entry.username = self.query_one("#username",Input).value
             self.__entry.password = self.query_one("#password",Input).value
 
-            select_value = self.query_one("#group",Select[str]).value
+            select_value = self.query_one("#group",Select).value
             if select_value == Select.BLANK:
                 select_value = ""
 
